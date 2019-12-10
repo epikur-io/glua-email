@@ -23,7 +23,7 @@ hello
 user
 	]])
 
-	myEmail:Lemail_SendTLS("account@email.com", {
+	myEmail:sendTLS("account@email.com", {
 		-- Auth config
 		identity = "address@fomain.com";
 		username = "username";
